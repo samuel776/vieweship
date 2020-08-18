@@ -1,0 +1,62 @@
+body {
+  background-color: hsl(0, 24%, 96%);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#image {
+  height: 50px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.topnav {
+  padding-top: 60px;
+}
+
+.topnav a {
+  color: black;
+  text-decoration: none;
+  padding-right: 2em;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.topnav a:hover {
+  color: blue;
+  font-style: oblique;
+  font-size: medium;
+}
+
+#viewership {
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 40px 0px 15px 0px;
+}
+
+#pviewership {
+  font-family: sans-serif;
+  padding-bottom: 60px;
+}
+#submit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 60px 5px 60px;
+}
+#submit-button:hover {
+  background-color: rgb(58, 94, 4);
+}
+.button {
+  padding: 5px 20px 5px 20px;
+}

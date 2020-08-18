@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width:100%;
+}
+   
+.bedu {
+  color: rgb(2, 6, 10);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  height: 300px;
+  clear: right;
+  background-color: lightskyblue;
+  padding-top: 100px;
+  margin-top:40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.fedu {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 120px;
+}
+.hedu {
+  display: flex;
+}
+.hedu a {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  font-size: 15px;
+}
+.hedu a:hover {
+  color: rgb(104, 102, 252);
+}
+
+.search-icon {
+  
+  padding:40px;
+ 
+}
+header {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  width:100%;
+}
+section {
+  display: flex;
+  background-color: rgb(95, 206, 169);
+  background-size: auto;
+  width: 100%;
+  height: 80px;
+  padding-top: 50px;
+  justify-content: space-between;
+  color: white;
+}
+.login-register {
+  margin-right:20px;
+}
+.icon {
+  padding;
+  margin-left:60px;
+}
+
+.teacher {
+  text-align: center;
+  line-height: 30px;
+  background-color: rgb(95, 206, 169);
+ margin-top:10px;
+ padding:0 20px;
+  line-height: ;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor:pointer;
+}
+.subscribe a{
+  background-color:rgb(95, 206, 169);
+  text-align:center;
+  border-radius: 30px;
+  line-height:40px ;
+  color:white;
+  text-decoration: none;
+  padding:10px
+}
+
+#far{
+  padding-left: 12px;
+}
+.bedu1{
+  width:60%;
+  margin:auto;
+}
+
+.search-container{
+margin-top:20px;
+}
+
+
+
