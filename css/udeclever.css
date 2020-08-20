@@ -1,10 +1,10 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
-  width:100%;
+body {
+  width: 100%;
 }
-   
+
 .bedu {
   color: rgb(2, 6, 10);
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
   clear: right;
   background-color: lightskyblue;
   padding-top: 100px;
-  margin-top:40px;
+  margin-top: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
 }
@@ -40,9 +40,11 @@ body{
 }
 
 .search-icon {
-  
-  padding:40px;
- 
+  padding: 40px;
+  cursor: pointer;
+}
+.search-icon:hover {
+  color: skyblue;
 }
 header {
   display: flex;
@@ -50,7 +52,7 @@ header {
   justify-content: space-around;
   height: 100px;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 section {
   display: flex;
@@ -63,48 +65,48 @@ section {
   color: white;
 }
 .login-register {
-  margin-right:20px;
+  margin-right: 20px;
 }
 .icon {
-  padding;
-  margin-left:60px;
+  margin-left: 60px;
 }
 
 .teacher {
   text-align: center;
   line-height: 30px;
   background-color: rgb(95, 206, 169);
- margin-top:10px;
- padding:0 20px;
+  margin-top: 10px;
+  padding: 0 20px;
   line-height: ;
   height: 30px;
   border-radius: 30px;
   font-size: 15px;
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
-  cursor:pointer;
+  cursor: pointer;
 }
-.subscribe a{
-  background-color:rgb(95, 206, 169);
-  text-align:center;
+.subscribe a {
+  background-color: rgb(95, 206, 169);
+  text-align: center;
   border-radius: 30px;
-  line-height:40px ;
-  color:white;
+  line-height: 40px;
+  color: white;
   text-decoration: none;
-  padding:10px
+  padding: 10px;
 }
 
-#far{
+#far {
   padding-left: 12px;
 }
-.bedu1{
-  width:60%;
-  margin:auto;
+.bedu1 {
+  width: 60%;
+  margin: auto;
 }
 
-.search-container{
-margin-top:20px;
+.search-container {
+  margin-top: 20px;
+  display: none;
 }
-
-
-
+.display {
+  display: inline;
+}

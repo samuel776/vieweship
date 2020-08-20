@@ -4,10 +4,14 @@
     <title>Sign Up Page</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../css/sign-up.css" />
+    <script
+      src="https://kit.fontawesome.com/629d60a3b7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <form class="sign" action="action_page.php">
-      <div class="container">
+    <form class="sign" id="form">
+      <div class="container success error">
         <h1>Sign Up</h1>
         <p>Please fill in this form to create an account.</p>
         <hr />
@@ -16,33 +20,65 @@
           type="text"
           placeholder="Enter Your First Name"
           name="name"
+          id="fname"
           required
         />
+
+        <i class="fas fa-exclamation-triangle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Error message</small><br />
+
         <label for="sname"><b>Second Name</b></label>
         <input
           type="text"
           placeholder="Enter Your Second Name"
           name="sname"
+          id="sname"
           required
         />
+
+        <i class="fas fa-exclamation-triangle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Error message</small><br />
+
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required />
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
+
+        <i class="fas fa-exclamation-triangle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Error message</small><br />
 
         <label for="psw"><b>Password</b></label>
         <input
           type="password"
           placeholder="Enter Password"
           name="psw"
+          id="password"
           required
         />
+
+        <i class="fas fa-exclamation-triangle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Error message</small><br />
 
         <label for="psw-repeat"><b>Comfirm Password</b></label>
         <input
           type="password"
           placeholder="Comfirm Password"
           name="psw-repeat"
+          id="cpassword"
           required
         />
+
+        <i class="fas fa-exclamation-triangle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small>Error message</small><br />
 
         <label>
           <input
