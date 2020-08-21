@@ -4,7 +4,6 @@
 
 body {
   background-color: lightskyblue;
-
 }
 
 h1 {
@@ -69,38 +68,39 @@ button:hover {
 
 .container {
   padding: 16px;
-
 }
 
-.container i{
-  visibility:hidden;
+.container i {
+  visibility: hidden;
 }
 
-.container.success input{
-border-color: green;
+.container.success input {
+  border-color: green;
 }
 
-.container.error input{
+.container.error input {
   border-color: rgb(218, 51, 51);
 }
 
-.container.success i,.fas fa-check-circle{
-visibility: visible;
-color: green;
+.container.success i,
+.fas fa-check-circle {
+  visibility: visible;
+  color: green;
 }
 
-.container.error i, .fas fa-exclamation-triangle{
+.container.error i,
+.fas fa-exclamation-triangle {
   visibility: visible;
   color: rgb(218, 51, 51);
 }
 
-.container small{
-  visibility:hidden;
+.container small {
+  visibility: hidden;
 }
 
-.container.error small{
+.container.error small {
   visibility: visible;
-  color:rgb(218, 51, 51);
+  color: rgb(218, 51, 51);
 }
 
 .clearfix::after {
@@ -114,3 +114,4 @@ color: green;
   .signupbtn {
     width: 100%;
   }
+}
