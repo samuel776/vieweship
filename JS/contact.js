@@ -31,7 +31,7 @@ function validation() {
   alert("Successfully submitted");
   return true;
 }
-document.querySelector("form").onsubmit = function (e) {
+document.querySelector("form").onsubmit = (e) => {
   e.preventDefault();
   validation();
 };
