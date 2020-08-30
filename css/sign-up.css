@@ -9,9 +9,14 @@ body {
 h1 {
   text-align: center;
 }
+
+.container {
+  margin: 10px;
+}
+
 .sign {
   border: 5px solid rgb(223, 218, 218);
-  border-radius: 80px;
+  border-radius: 30px;
   width: 400px;
   margin: 0 auto;
 }
@@ -22,9 +27,9 @@ input[type="password"] {
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
-  border: 2px solid black;
-  border-radius: 30px;
+  border-radius: 12px;
   background: #f1f1f1;
+  border: none;
 }
 
 input[type="text"]:focus,
@@ -44,7 +49,7 @@ button {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  border-radius: 30px;
+  border-radius: 12px;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
@@ -57,50 +62,14 @@ button:hover {
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
+  margin-right: 50px;
+
 }
 
 .cancelbtn,
 .signupbtn {
-  float: left;
-  width: 50%;
+  width: 40%;
   outline: none;
-}
-
-.container {
-  padding: 16px;
-}
-
-.container i {
-  visibility: hidden;
-}
-
-.container.success input {
-  border-color: green;
-}
-
-.container.error input {
-  border-color: rgb(218, 51, 51);
-}
-
-.container.success i,
-.fas fa-check-circle {
-  visibility: visible;
-  color: green;
-}
-
-.container.error i,
-.fas fa-exclamation-triangle {
-  visibility: visible;
-  color: rgb(218, 51, 51);
-}
-
-.container small {
-  visibility: hidden;
-}
-
-.container.error small {
-  visibility: visible;
-  color: rgb(218, 51, 51);
 }
 
 .clearfix::after {
@@ -110,6 +79,7 @@ button:hover {
 }
 
 @media screen and (max-width: 300px) {
+
   .cancelbtn,
   .signupbtn {
     width: 100%;
